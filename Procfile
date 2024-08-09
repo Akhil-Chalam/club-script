@@ -1,1 +1,1 @@
-web: pip install tensorflow-cpu tensorflow-hub --no-deps && gunicorn app:app
+web: gunicorn app:app

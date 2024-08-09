@@ -1,5 +1,4 @@
 import tensorflow_hub as hub
-import matplotlib.pyplot as plt
 import numpy as np
 from nltk.tokenize import word_tokenize
 import pandas as pd

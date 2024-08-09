@@ -37,6 +37,29 @@ def similarity(embedding_string, embedded_input):
 def find_clubs():
     #query = input("Enter a club's name\n")
     #query = ""
+    if True:
+        test = [
+        {
+            "name": "a",
+            "description_summary": "a",
+            "description": "a",
+            "contact": "a",
+            "meeting": "a"
+        },        {
+            "name": "a",
+            "description_summary": "a",
+            "description": "a",
+            "contact": "a",
+            "meeting": "a"
+        },        {
+            "name": "a",
+            "description_summary": "a",
+            "description": "a",
+            "contact": "a",
+            "meeting": "a"
+        }
+        ]
+        return jsonify(test)
     query = request.json.get("data").get("text")
     print("query: " + query + " : end Query")
     query = word_tokenize(query)

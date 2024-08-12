@@ -1,1 +1,1 @@
-web: pip install tensorflow-cpu tensorflow-hub tf_keras --no-deps && gunicorn app:app
+web: gunicorn app:app
